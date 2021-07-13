@@ -1,0 +1,12 @@
+@import  "./normalize.css"
+
+/* :root -> 获取根元素hmtl */
+:root {
+  --color-background: #fff;
+  --font-size: 14px;
+  --line-height: 1.5; 
+}
+
+span {
+  font-size: var(--font-size);
+}
